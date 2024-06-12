@@ -6,7 +6,7 @@ export default component$(() => {
     <>
       <div
         class="hero min-h-screen"
-        style="background-image: url(background.jpeg);"
+        style="background-image: url(https://image-proxy.wont-stream.workers.dev/?-https://cdn.jsdelivr.net/gh/wont-stream/desalvoTree-website@main/public/background.jpeg&output=webp);"
         id="top"
       >
         <div class="hero-overlay bg-opacity-60"></div>
@@ -27,10 +27,20 @@ export default component$(() => {
       <div class="hero bg-base-200 min-h-screen" id="Gallery">
         <div class="diff aspect-[1/1]">
           <div class="diff-item-1">
-            <img alt="Peaches" src="peach 2.jpg" width={3024} height={4032} />
+            <img
+              alt="Peaches"
+              src="https://image-proxy.wont-stream.workers.dev/?-https://cdn.jsdelivr.net/gh/wont-stream/desalvoTree-website@main/public/peach 2.jpg&output=webp"
+              width={3024}
+              height={4032}
+            />
           </div>
           <div class="diff-item-2">
-            <img alt="Peaches" src="peach 3.jpg" width={3024} height={4032} />
+            <img
+              alt="Peaches"
+              src="https://image-proxy.wont-stream.workers.dev/?-https://cdn.jsdelivr.net/gh/wont-stream/desalvoTree-website@main/public/peach 3.jpg&output=webp"
+              width={3024}
+              height={4032}
+            />
           </div>
           <div class="diff-resizer"></div>
         </div>
@@ -38,7 +48,7 @@ export default component$(() => {
 
       <div
         class="hero min-h-screen"
-        style="background-image: url('peach 1.jpg');"
+        style="background-image: url('https://image-proxy.wont-stream.workers.dev/?-https://cdn.jsdelivr.net/gh/wont-stream/desalvoTree-website@main/public/peach 1.jpg&output=webp');"
         id="top"
       >
         <div class="hero-overlay bg-opacity-60"></div>
@@ -64,7 +74,8 @@ export default component$(() => {
       <div class="hero bg-base-200 min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="jay.jpg"
+            src="https://image-proxy.wont-stream.workers.dev/?-https://cdn.jsdelivr.net/gh/wont-stream/desalvoTree-website@main/public/jay.jpg&output=webp"
+            alt="Jay DeSalvo"
             class="max-w-sm rounded-lg shadow-2xl"
             width={1163}
             height={1412}
